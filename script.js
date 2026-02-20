@@ -1,0 +1,1 @@
+(function(){const b=document.querySelector('[data-toggle]');const m=document.querySelector('#mobileMenu');if(b&&m){b.addEventListener('click',()=>{const o=m.style.display==='block';m.style.display=o?'none':'block';b.setAttribute('aria-expanded',o?'false':'true');});}})();
